@@ -22,6 +22,7 @@ cin>>current_month_reading;
 
 cout<<"Enter type of EB connection(domestic/commercial): ";
 cin>>type_of_eb;
+    
 int units = current_month_reading-previous_month_reading;
 double amount = 0;
 
@@ -64,5 +65,6 @@ if (type_of_eb=="domestic"){
 
     return 0;
 }
+
 
 
