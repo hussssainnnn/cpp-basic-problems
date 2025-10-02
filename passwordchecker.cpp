@@ -13,10 +13,11 @@ getline(cin,password);
 while (password!=correctpassword)
 {
     cout<<"Wrong Password.Try again: ";
-    cin>>password;
+    getline(cin,password);
 }
 cout<<"Access Granted!"<<endl;
 
 
     return 0;
+
 }
